@@ -4,7 +4,7 @@
       Experiencia laboral
     </h2>
     <div class="row">
-      <div class="col-md-6 mb-4" v-for="(job, index) in jobs" :key="index">
+      <!-- <div class="col-md-6 mb-4" v-for="(job, index) in jobs" :key="index">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">
@@ -18,7 +18,8 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
+      <p class="text-center m-2"><strong>Aun no tengo Experiencia laboral pero aprendo rapido, soy siempre puntual y pretendo continuar aprendiendo para mejorar mis habilidades constantemente</strong></p>
     </div>
   </div>
 </template>
