@@ -25,11 +25,16 @@ export default {
           carrera: 'Analista programador',
           periodo: '2019 - 2021'
         },
+        {
+          instituto: 'Desafio LATAM',
+          carrera: 'Programador Dront-End',
+          periodo: 'Bootcamp 2024'
+        }
       ]
     }
   }
 }
 </script>
 <style>
-  
+
 </style>

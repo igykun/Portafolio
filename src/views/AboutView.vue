@@ -23,8 +23,15 @@ export default{
     <Education />
     <WorkExperience />
     <hr>
-    <p class="text-center"><strong>Aun no tengo Experiencia laboral pero aprendo rapido, soy siempre puntual y pretendo continuar aprendiendo para mejorar mis habilidades constantemente</strong></p>
   </div>
 </template>
-<style>
+<style scoped>
+  .about{
+    background-color: #353535;
+    color: #f2f3f4;
+    height: 100%;
+  }
+  *{
+    background-color: #353535;
+  }
 </style>
