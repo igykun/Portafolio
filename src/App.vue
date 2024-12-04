@@ -5,18 +5,18 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item m-2">
-          <RouterLink to="/">Home</RouterLink>
+          <RouterLink class="nav-link" to="/">Home</RouterLink>
         </li>
         <li class="nav-item m-2">
-          <RouterLink to="/about">Sobre mí</RouterLink>
+          <RouterLink class="nav-link" to="/about">Sobre mí</RouterLink>
         </li>
         <li class="nav-item m-2">
-          <RouterLink to="/contact">Contacto</RouterLink>
+          <RouterLink class="nav-link" to="/contact">Contacto</RouterLink>
         </li>
       </ul>
     </div>
@@ -26,4 +26,5 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+
 </style>
